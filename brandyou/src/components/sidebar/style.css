@@ -1,24 +1,24 @@
 nav{
-    background: burlywood;
-    background-image: url(./bg.gif);
+    background: white;
+    background-image: url(./pexels-photo-sidebar.jpeg);
     background-size: cover;
     background-position: center;
     width: 300px;
     min-height: 100vh;
     padding: 50px;
-    color: yellowgreen;
+    color: white;
   }
   
   nav a{
     display: block;
-    background: yellowgreen;
+    background: black;
     margin-bottom: 10px;
-    color: black;
+    color: white;
     padding: 10px;
     text-decoration: none;
   }
 nav a.active{
   background: black;
-  color: yellowgreen;
+  color: white;
 }
   

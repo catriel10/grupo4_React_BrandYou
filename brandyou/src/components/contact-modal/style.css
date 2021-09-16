@@ -11,8 +11,8 @@
 #contact-modal .contact-wrapper{
     width: 500px;
     height: 500px;
-    color: white;
-    background: #212dcc;
+    color: black;
+    background: white;
     padding: 100px;
     position: fixed;
     top: 50%;

@@ -27,7 +27,7 @@ Product.propTypes = {
 
 
 Product.defaultProps = {
-    image: 'silueta-femenina.jpg'
+    image: 'silueta-femenina.jpeg'
 }
 
 export default Product

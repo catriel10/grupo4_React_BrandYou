@@ -40,7 +40,7 @@ export default function ProductDetail() {
                         <img src={`/${data.image}`} />
                         <p>{data.description}</p>
                     </div>
-                    {/*<!-- <Link to={'/planet/4'}>Otro planeta</Link> -->*/}
+                    <Link to={'/product/4'}>Otro planeta</Link>
                    
                 </>
                 )
