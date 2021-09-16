@@ -32,7 +32,9 @@ export default class Sidebar extends React.Component{
     
                     <Link to='/'>Products</Link>
                     <Link to='/about'>About</Link>
-                    
+                    <Link to='/Categories'>Categories</Link>
+                    <Link to='/LastProductInDB'>Last Product</Link>
+                    <Link to='/Users'>Users</Link>
                     <a onClick={() => this.toggleContactModal()} href="#">Contact</a>
                     
                 </nav>   
