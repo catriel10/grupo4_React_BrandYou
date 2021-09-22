@@ -19,7 +19,6 @@ function App() {
       />
       <Switch>
         <Route exact path="/" component={ProductList} />
-        
         <Route path="/product/:id" component={ProductDetail} />
         <Route path="/about" component={About} />
         
