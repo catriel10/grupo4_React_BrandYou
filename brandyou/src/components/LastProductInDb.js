@@ -1,5 +1,5 @@
 import React from 'react';
-import imagenFondo from '../images/mandalorian.jpg';
+import imagenFondo from '../assets/images/jumper-cuadrille.jpeg';
 
 function LastProductInDb(){
     return(

@@ -1,32 +1,32 @@
 import { useEffect, useState, useMemo } from 'react'
 import { Code } from 'react-content-loader'
-import { API_PRODUCTS } from '../../config'
-import Product from '../../components/product/Product'
+import { API_USERS } from '../../config'
+import User from '../../components/user/User'
 import "./style.css"
 
 
-export default function ProductList() {
-    const [products, setProducts] = useState([])
+export default function UserList() {
+    const [users, setUsers] = useState([])
     const [loading, setLoading] = useState(true)
 
     // componentDidMount
     useEffect(() => {
-        fetch(API_PRODUCTS)
+        fetch(API_USERS)
             .then(res => res.json())
             .then(data => {
-                setProducts(data.data.products)
+                setUsers(data.data.users)
                 setLoading(false)  
             })
     }, [])
 
-    const productsQuantity = useMemo(() => {
+    const usersQuantity = useMemo(() => {
         // codigo
-        return products.length
-    }, [products.length])
+        return users.length
+    }, [users.length])
 
     return (
         <>
-            <section className='products'>
+            <section className='users'>
 
                 { loading ? (
                     <Code
@@ -37,15 +37,15 @@ export default function ProductList() {
                     />
                 ) : (
                     <>
-                        <h2>Tenemos {productsQuantity} products:</h2>
-
-                        {products.map(product => {
+                        <h2>Tenemos {usersQuantity} users:</h2>
+                        
+                        {users.map(user => {
                             return (
-                                <Product 
-                                    title={product.name} 
-                                    image={product.image} 
-                                    key={`product-${product.id}`}
-                                    productId={product.id}
+                                <User 
+                                    title={user.name} 
+                                    image={user.image} 
+                                    key={`user-${user.id}`}
+                                    userId={user.id}
                                 />
                             )
                         })}

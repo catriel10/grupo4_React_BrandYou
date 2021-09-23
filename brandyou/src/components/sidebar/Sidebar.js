@@ -31,10 +31,10 @@ export default class Sidebar extends React.Component{
                     <p>{subtitle}</p>
     
                     <Link to='/products'>Products</Link>
-                    <Link to='/about'>About</Link>
+                    <Link to='/Users'>Users</Link>
                     <Link to='/Categories'>Categories</Link>
                     <Link to='/LastProductInDB'>Last Product</Link>
-                    <Link to='/Users'>Users</Link>
+                    <Link to='/about'>About</Link>
                     <a onClick={() => this.toggleContactModal()} href="#">Contact</a>
                     
                 </nav>   

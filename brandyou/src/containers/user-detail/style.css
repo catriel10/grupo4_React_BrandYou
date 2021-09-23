@@ -1,4 +1,4 @@
-.product-detail{
+.user-detail{
     text-align: center;
     
     min-height: 100vh;
@@ -9,7 +9,7 @@
     flex-wrap: wrap;
 }
 
-.product-detail p{
+.user-detail p{
     position: absolute;
     top: 50%;
     background: rgba(0,0,0,0.9)

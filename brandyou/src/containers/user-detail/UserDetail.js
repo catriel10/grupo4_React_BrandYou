@@ -2,31 +2,31 @@
 import { useEffect, useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { Code } from 'react-content-loader'
-import { API_PRODUCTS_DETAIL } from '../../config'
+import { API_USERS_DETAIL } from '../../config'
 import "./style.css"
 
-export default function ProductDetail() {
+export default function UserDetail() {
     const { id } = useParams()
 
-    const [productDetail, setProductDetail] = useState({
+    const [userDetail, setUserDetail] = useState({
         data: null,
         loading: true,
     })
     useEffect(() => {  
-        fetch(`${API_PRODUCTS_DETAIL}${id}`)
+        fetch(`${API_USERS_DETAIL}${id}`)
             .then(res => res.json())
-            .then(productApi => {
-                setProductDetail({
+            .then(userApi => {
+                setUserDetail({
                     loading: false,
-                    data: productApi.data.product,
+                    data: userApi.data.product,
                 })
             })
     }, [id])
     
-    const { loading, data } = productDetail
+    const { loading, data } = userDetail
 
     return (
-        <section class="product-detail">
+        <section class="user-detail">
             { loading ? (
                     <Code
                         height={140}
@@ -39,9 +39,11 @@ export default function ProductDetail() {
                     <h3>{data.name}</h3>
                     <div className="columns">
                         <img src={`/${data.image}`} />
-                        <p>{data.description}</p>
+                        <p>{data.email}</p>
+                        <p>{data.name}</p>
+                        <p>{data.lastname}</p>
                     </div>
-                    <Link to={'/product/4'}>Another product</Link>
+                    <Link to={'/user/2'}>Another user</Link>
                    
                 </>
                 )
