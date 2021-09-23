@@ -30,7 +30,7 @@ export default class Sidebar extends React.Component{
                     <h1>{title}</h1>
                     <p>{subtitle}</p>
     
-                    <Link to='/'>Products</Link>
+                    <Link to='/products'>Products</Link>
                     <Link to='/about'>About</Link>
                     <Link to='/Categories'>Categories</Link>
                     <Link to='/LastProductInDB'>Last Product</Link>

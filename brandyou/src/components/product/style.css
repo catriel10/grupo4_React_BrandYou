@@ -1,4 +1,6 @@
 
   .product a{
-      color: greenyellow;
+      color: white;
+      text-decoration:none;
+      font-size: small;
   }

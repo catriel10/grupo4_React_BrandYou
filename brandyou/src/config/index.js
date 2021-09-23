@@ -3,6 +3,9 @@ export const SidebarSubtitle = "New vibes.style.trendy"
 const API_BASE_URL = 'http://localhost:4444/api'
 export const API_PRODUCTS = `${API_BASE_URL}/products`
 export const API_PRODUCTS_DETAIL = `${API_BASE_URL}/products/`
+export const API_PRODUCTS_SEARCH = `${API_BASE_URL}/products/search/`
+export const API_USERS = `${API_BASE_URL}/users`
+export const API_USERS_DETAIL = `${API_BASE_URL}/users/`
 
 export const PRODUCTS = [
   {

@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import { useEffect, useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { Code } from 'react-content-loader'

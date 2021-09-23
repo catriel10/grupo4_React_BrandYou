@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom'
 
@@ -11,7 +12,7 @@ function Product({ title, image, productId }) {
             <article className='product'>
                 <Link to={`/product/${productId}`}>
                     <h2>{title}</h2>
-                    <img src={`/${image}`} width="100%" />
+                    <img src={`/${image}`} width="80%" />
                 </Link>
             </article>
         </Card>

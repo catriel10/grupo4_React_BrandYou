@@ -18,7 +18,7 @@ function App() {
         subtitle={SidebarSubtitle}
       />
       <Switch>
-        <Route exact path="/" component={ProductList} />
+        <Route exact path="/products" component={ProductList} />
         <Route path="/product/:id" component={ProductDetail} />
         <Route path="/about" component={About} />
         

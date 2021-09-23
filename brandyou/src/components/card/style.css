@@ -1,5 +1,5 @@
 .card{
-    border: 2px solid pink;
+    border: 2px solid grey;
     padding: 10px;
     margin: 10px;
     height: 300px;
@@ -11,5 +11,5 @@
 
 .card:hover{
     transform: translate(0, -10px);
-    box-shadow: 10px 10px 100px pink;
+    box-shadow: 10px 10px 100px white;
 }

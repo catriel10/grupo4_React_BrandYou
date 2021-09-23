@@ -37,7 +37,9 @@ export default function ProductList() {
                     />
                 ) : (
                     <>
-                        <h2>Tenemos {productsQuantity} products:</h2>    
+                        <h2>Tenemos {productsQuantity} products:</h2>
+                        <h2>Tenemos {productsQuantity} products:</h2>     
+                        <h2>Tenemos {productsQuantity} products:</h2> 
                         
                         {products.map(product => {
                             return (
