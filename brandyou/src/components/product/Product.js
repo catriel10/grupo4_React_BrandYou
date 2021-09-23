@@ -10,7 +10,7 @@ function Product({ title, image, productId }) {
     return (
         <Card>
             <article className='product'>
-                <Link to={`/product/${productId}`}>
+                <Link to={`/products/${productId}`}>
                     <h2>{title}</h2>
                     <img src={`/${image}`} width="80%" />
                 </Link>

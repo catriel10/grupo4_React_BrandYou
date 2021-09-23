@@ -18,7 +18,7 @@ export default function UserDetail() {
             .then(userApi => {
                 setUserDetail({
                     loading: false,
-                    data: userApi.data.product,
+                    data: userApi.data.user,
                 })
             })
     }, [id])
@@ -38,12 +38,14 @@ export default function UserDetail() {
                 <>
                     <h3>{data.name}</h3>
                     <div className="columns">
-                        <img src={`/${data.image}`} />
-                        <p>{data.email}</p>
-                        <p>{data.name}</p>
-                        <p>{data.lastname}</p>
+                        <img src={`/${data.image}`} width="40%"/>
+                        <ul><p>email:{data.email}</p></ul>
+
+                        <ul><p>name:{data.name}</p></ul>
+
+                        <ul><p>lastname: {data.lastname}</p></ul>
                     </div>
-                    <Link to={'/user/2'}>Another user</Link>
+                    <Link to={'/users/3'}>Another user</Link>
                    
                 </>
                 )

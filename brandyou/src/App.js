@@ -8,7 +8,7 @@ import UserDetail from './containers/user-detail/UserDetail'
 import About from './containers/about/About'
 import NotFound from './containers/not-found/NotFound'
 import './App.css';
-//import ContentWrapper from './components/ContentWrapper';
+import ContentWrapper from './components/ContentWrapper';
 import { SidebarTitle, SidebarSubtitle } from './config'
 
 
