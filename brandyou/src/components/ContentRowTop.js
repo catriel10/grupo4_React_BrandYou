@@ -12,7 +12,7 @@ function ContentRowTop(){
 						<h1 className="h3 mb-0 text-gray-800">App Dashboard</h1>
 					</div>
 				
-					{/*<!-- Content Row Movies-->*/}
+					{/*<!-- Content Row Products->*/}
 					<ContentRowProducts />
 					<ContentRowCenter />
 					<Chart />

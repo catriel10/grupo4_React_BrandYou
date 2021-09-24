@@ -1,4 +1,4 @@
-export const SidebarTitle = "Dashboard Brand-You"
+export const SidebarTitle = "Dashboard Brand You"
 export const SidebarSubtitle = "New vibes.style.trendy"
 const API_BASE_URL = 'http://localhost:4444/api'
 export const API_PRODUCTS = `${API_BASE_URL}/products`

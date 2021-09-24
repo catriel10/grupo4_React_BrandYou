@@ -2,7 +2,7 @@ import { useEffect, useState, useMemo } from 'react'
 import { Code } from 'react-content-loader'
 import { API_PRODUCTS } from '../../config'
 import Product from '../../components/product/Product'
-import "./style.css"
+import "../product-list/style.css"
 
 
 export default function ProductList() {
@@ -43,7 +43,8 @@ export default function ProductList() {
                             return (
                                 <Product 
                                     title={product.name} 
-                                    image={product.image} 
+                                    image={product.image}
+                                    price={product.price}  
                                     key={`product-${product.id}`}
                                     productId={product.id}
                                 />

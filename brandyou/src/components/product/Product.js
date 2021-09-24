@@ -3,19 +3,20 @@ import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom'
 
 import { Card } from '../card/Card'
+import {SmallCard} from '../smallcard/SmallCard'
 
 import "./style.css"
 
 function Product({ title, image, productId }) {
     return (
-        <Card>
+        <SmallCard>
             <article className='product'>
                 <Link to={`/products/${productId}`}>
                     <h2>{title}</h2>
                     <img src={`/${image}`} width="80%" />
                 </Link>
             </article>
-        </Card>
+        </SmallCard>
     )
 }
 

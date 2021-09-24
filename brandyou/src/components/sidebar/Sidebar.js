@@ -27,14 +27,12 @@ export default class Sidebar extends React.Component{
         return (
             <>
                 <nav>
-                    <img src={Logo} alt="logo" width="80%"/>
+                    <img src={Logo} alt="logo" width="100%"/>
                     <h1>{title}</h1>
                     <p>{subtitle}</p>
-    
+                    <Link to='/'>Home</Link>
                     <Link to='/products'>Products</Link>
                     <Link to='/Users'>Users</Link>
-                    <Link to='/Categories'>Categories</Link>
-                    <Link to='/LastProductInDB'>Last Product</Link>
                     <Link to='/about'>About</Link>
                     <a onClick={() => this.toggleContactModal()} href="#">Contact</a>
                     

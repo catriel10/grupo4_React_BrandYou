@@ -39,11 +39,11 @@ export default function UserDetail() {
                     <h3>{data.name}</h3>
                     <div className="columns">
                         <img src={`/${data.image}`} width="40%"/>
-                        <ul><p>email:{data.email}</p></ul>
+                        <ul><p>em@il: {data.email}</p></ul>
 
-                        <ul><p>name:{data.name}</p></ul>
+                        <ul><p>Name: {data.name}</p></ul>
 
-                        <ul><p>lastname: {data.lastname}</p></ul>
+                        <ul><p>Lastname: {data.lastname}</p></ul>
                     </div>
                     <Link to={'/users/3'}>Another user</Link>
                    
