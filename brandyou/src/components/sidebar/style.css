@@ -8,6 +8,17 @@ nav{
     padding: 50px;
     color: white;
   }
+
+  navtopbar {
+    background: white;
+    /*background-image: url(./pexels-photo-sidebar.jpeg);*/
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    min-height: 100vh;
+    padding: 50px;
+    color: white;
+  }
   
   nav a{
     display: block;

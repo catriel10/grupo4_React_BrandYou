@@ -8,26 +8,29 @@ import UserDetail from './containers/user-detail/UserDetail'
 import About from './containers/about/About'
 import NotFound from './containers/not-found/NotFound'
 import './App.css';
+import './index.css';
 import ContentWrapper from './components/ContentWrapper';
-import { SidebarTitle, SidebarSubtitle } from './config'
+import { SidebarTitle, SidebarSubtitle} from './config'
 
 
 function App() {
   return (
     <main>
-      <Sidebar 
+      <Sidebar
         title={SidebarTitle}
         subtitle={SidebarSubtitle}
       />
+      
       <Switch>
+        <Route exact path="/" component={ContentWrapper} />
         <Route exact path="/products" component={ProductList} />
         <Route path="/products/:id" component={ProductDetail} />
         <Route exact path="/users" component={UserList} />
         <Route path="/users/:id" component={UserDetail} />
         <Route path="/about" component={About} />
-        
         <NotFound />
       </Switch>
+
     </main>
   );
 }

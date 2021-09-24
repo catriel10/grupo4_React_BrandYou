@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import "./style.css"
-
+import Logo from '../../assets/images/Logo-Brand-You-New.png'
 import { ContactModal } from '../contact-modal/ContactModal'
 
 export default class Sidebar extends React.Component{
@@ -27,6 +27,7 @@ export default class Sidebar extends React.Component{
         return (
             <>
                 <nav>
+                    <img src={Logo} alt="logo" width="80%"/>
                     <h1>{title}</h1>
                     <p>{subtitle}</p>
     

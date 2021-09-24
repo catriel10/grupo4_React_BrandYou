@@ -2,6 +2,7 @@ import React from 'react';
 import TopBar from './TopBar';
 import ContentRowTop from './ContentRowTop';
 import Footer from './Footer';
+import '../assets/css/app.css';
 
 
 function ContentWrapper(){
@@ -11,7 +12,7 @@ function ContentWrapper(){
             <div id="content-wrapper" className="d-flex flex-column">
                 {/*<!-- Main Content -->*/}
                 <div id="content">
-                    <TopBar />
+                  
                     <ContentRowTop />
                     <Footer />
                 </div>

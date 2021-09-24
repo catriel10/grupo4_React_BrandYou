@@ -2,12 +2,17 @@
     display: flex;
     min-height: 100vh;
     background: black;
-    color: white;
+    color: green;
     padding: 50px;
     flex: 1;
     flex-wrap: wrap;
   }
 
   h2{
-    width: 100%;
+    font-size: small;
+    color: green;
+  }
+
+  h3 {
+    color: green;
   }
