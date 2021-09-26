@@ -4,7 +4,6 @@ import { API_PRODUCTS } from '../../config'
 import Product from '../../components/product/Product'
 import "../product-list/style.css"
 
-
 export default function ProductList() {
     const [products, setProducts] = useState([])
     const [loading, setLoading] = useState(true)
@@ -19,7 +18,7 @@ export default function ProductList() {
             })
     }, [])
 
-    const productsQuantity = useMemo(() => {
+     const productsQuantity = useMemo(() => {
         // codigo
         return products.length
     }, [products.length])
@@ -38,7 +37,7 @@ export default function ProductList() {
                 ) : (
                     <>
                         <h2>Tenemos {productsQuantity} products:</h2>
-
+export {productsQuantity}
                         {products.map(product => {
                             return (
                                 <Product 

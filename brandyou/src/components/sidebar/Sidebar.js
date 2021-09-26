@@ -4,6 +4,7 @@ import "./style.css"
 import Logo from '../../assets/images/Logo-Brand-You-New.png'
 import { ContactModal } from '../contact-modal/ContactModal'
 
+
 export default class Sidebar extends React.Component{
     constructor(props) {
         super(props)
@@ -31,7 +32,7 @@ export default class Sidebar extends React.Component{
                     <h1>{title}</h1>
                     <p>{subtitle}</p>
                     <Link to='/'>Home</Link>
-                    <Link to='/products'>Products</Link>
+                    <Link to='/products'>Products </Link>
                     <Link to='/Users'>Users</Link>
                     <Link to='/about'>About</Link>
                     <a onClick={() => this.toggleContactModal()} href="#">Contact</a>
