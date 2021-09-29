@@ -1,6 +1,6 @@
 import React from 'react';
 import foto from '../assets/images/catriel.jpg';
-import "../assets/css/app.css"
+//import "../assets/css/app.css"
 
 function TopBar(){
     return(

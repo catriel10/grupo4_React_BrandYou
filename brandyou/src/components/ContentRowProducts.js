@@ -1,9 +1,10 @@
 import React from 'react';
 import SmallCard from './SmallCard';
+import { useState, useEffect } from 'react'
 
 /*  Cada set de datos es un objeto literal */
 
-/* <!-- Products in DB --> */
+/* <!-- Movies in DB --> */
 
 let productsInDB = {
     title: 'Product in Data Base',
@@ -12,7 +13,7 @@ let productsInDB = {
     icon: 'fa-clipboard-list'
 }
 
-/* <!-- Total Categories --> */
+/* <!-- Total awards --> */
 
 let totalCategories = {
     title:' Total categories', 
@@ -21,7 +22,7 @@ let totalCategories = {
     icon:'fa-award'
 }
 
-/* <!-- Users quantity --> */
+/* <!-- Actors quantity --> */
 
 let usersQuantity = {
     title:'Users quantity' ,

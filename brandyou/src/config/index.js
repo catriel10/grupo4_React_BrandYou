@@ -7,7 +7,7 @@ export const API_PRODUCTS_SEARCH = `${API_BASE_URL}/products/search/`
 export const API_USERS = `${API_BASE_URL}/users`
 export const API_USERS_DETAIL = `${API_BASE_URL}/users/`
 
-export const PRODUCTS = [
+/*export const PRODUCTS = [
   {
                 "id": 1,
                 "name": "Chaleco Cuadriculado",
@@ -393,3 +393,4 @@ export const PRODUCTS = [
                 "detail": "http://localhost:4444/api/products/16"
             },
 ]
+*/

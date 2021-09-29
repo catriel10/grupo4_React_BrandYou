@@ -20,14 +20,14 @@ function Product({ title, image, productId }) {
     )
 }
 
-
+/* propTypes */
 Product.propTypes = {
     title: PropTypes.string.isRequired,
     image: PropTypes.string,
     productId: PropTypes.number.isRequired,
 }
 
-
+/* defaultProps */
 Product.defaultProps = {
     image: 'silueta-femenina.jpeg'
 }

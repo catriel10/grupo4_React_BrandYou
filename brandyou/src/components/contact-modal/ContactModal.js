@@ -14,11 +14,11 @@ export function ContactModal({ onClickClose }) {
             <div className="contact-wrapper">
                 
                 <h4>Contact</h4>
-                <p>Dirección: Paraná 3745, Martínez, Buenos Aires, Argentina</p>
+                <p>Direction: Paraná 3745, Martínez, Buenos Aires, Argentina</p>
                 <p>Tel: (011) 4733-1111</p>
                 
                 <form>
-                    <input ref={inputRef} placeholder="Ingrese su email"></input>
+                    <input ref={inputRef} placeholder="Enter your email"></input>
                 </form>
 
                 <div onClick={onClickClose} className="close">

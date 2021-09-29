@@ -1,5 +1,6 @@
 import { Switch, Route } from 'react-router-dom'
 import Sidebar from './components/sidebar/Sidebar'
+
 // Secciones
 import ProductList from './containers/product-list/ProductList'
 import ProductDetail from './containers/product-detail/ProductDetail'
@@ -30,7 +31,6 @@ function App() {
         <Route path="/about" component={About} />
         <NotFound />
       </Switch>
-
     </main>
   );
 }
