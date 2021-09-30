@@ -8,18 +8,17 @@ function RightSideInfo(params) {
 
     const [productByCategory, setproductByCategory] = useState([])
     useEffect(() => {
-        fetch('/api/products')
+        fetch('http://localhost:4444/api/products/')
             .then(response => response.json())
             .then(data => {
                 setproductByCategory(
-                    data.data.countByCategory
+                    data.data.objectCategories
                 )
             })
     }, [])
 
     let qtyArray = Object.values(productByCategory)
     let categoryKeys = Object.keys(productByCategory)
-
 
 
 
@@ -35,9 +34,7 @@ function RightSideInfo(params) {
                     <div className='rigthSideCategories'>
                         <ul className='categoryList'>
                             {qtyArray.map((e, index) => {
-                                return <li className='categoryElement' key={index}> {categoryKeys[index]}
-                                    {<QuantityProducts qty={e} />}
-                                </li>
+                                return <li className='categoryElement' key={index}> {categoryKeys[index]}{<QuantityProducts qty={e} />}</li>
                             })}
                         </ul>
                     </div>

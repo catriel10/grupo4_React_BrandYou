@@ -1,6 +1,9 @@
 import React from 'react';
 import Chart from './Chart';
 
+var today = new Date(),
+   date =  today.getDate() + '/' + (today.getMonth() + 1) + '/' + today.getFullYear();
+
 function Footer(){
     return (
         <React.Fragment>
@@ -8,7 +11,7 @@ function Footer(){
 				<div className="container my-auto">
 					<div className="copyright text-center my-auto">
 					<Chart />
-						<span>Copyright &copy; Dashboard 2021</span>
+						<span>Copyright &copy; Dashboard - Brand You {date}</span>
 					</div>
 				</div>
 			</footer>
