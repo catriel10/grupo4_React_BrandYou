@@ -1,5 +1,5 @@
 import React from 'react';
-import Chart from './Chart';
+import Chart from './chart/Chart';
 
 var today = new Date(),
    date =  today.getDate() + '/' + (today.getMonth() + 1) + '/' + today.getFullYear();

@@ -1,6 +1,6 @@
 import React from 'react';
 import ContentRowCenter from './ContentRowCenter';
-import TopInfoBox from '../components/TopInfoBoxes/TopInfoBoxes'
+import TopInfoBox from './TopInfoBoxes/TopInfoBoxes'
 import Logo from '../assets/images/Logo-Brand-You-New.png'
 
 
@@ -11,7 +11,7 @@ function ContentRowTop(){
 				{/*<!-- Content Row Top -->*/}
 				<div className="container-fluid">
 					<div className="d-sm-flex aligns-items-center justify-content-between mb-4">
-						<h1 className="h3 mb-0 text-gray-800"><img src={Logo} alt="logo" width="5%"/>  App Dashboard - Brand You  <img src={Logo} alt="logo" width="5%"/></h1>
+						<h1 className="h3 mb-0 text-gray-800"><img src={Logo} alt="logo" width="5%"/>  App Dashboard - Brand You</h1>
 						 
 					</div>
 				

@@ -1,5 +1,6 @@
 import React from 'react';
-
+import { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 
 function ChartRow(props){
     return (
@@ -9,13 +10,6 @@ function ChartRow(props){
                     <td>{props.discount}</td>
                     <td>{props.quantity}</td>
                     <td>{props.discount}</td>
-                    <td>
-                        <ul>
-                            {props.Categories.map( (category,i) => 
-                                <li key={`category ${i}`}>{category}</li>
-                            )}
-                        </ul>
-                    </td>
                 </tr>
             )
     }
