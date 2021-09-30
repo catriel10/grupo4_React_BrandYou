@@ -43,7 +43,7 @@ export default function UserList() {
                             return (
                                 <User 
                                     title={user.name} 
-                                    image={user.image} 
+                                    image={user.image}
                                     key={`user-${user.id}`}
                                     userId={user.id}
                                 />
