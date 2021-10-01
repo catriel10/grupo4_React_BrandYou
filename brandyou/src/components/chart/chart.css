@@ -1,0 +1,23 @@
+
+.card-body{
+    display: flex;
+    width: 100%;
+    /* height: 300px; */
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    box-shadow: 5px 6px #ef5956
+}
+
+.table {
+    list-style: none;
+    font-size: 20px;
+    color: white;
+
+}
+

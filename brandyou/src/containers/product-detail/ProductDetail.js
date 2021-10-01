@@ -44,7 +44,7 @@ export default function ProductDetail() {
                         <p>Discount: {data.discount}</p>
                         <p>Quantity: {data.quantity}</p>
                     </div>
-                    <Link to={'/products/'}>Product List</Link>
+                    <Link to={'/products/'}><i class="far fa-arrow-alt-circle-left"></i>Back</Link>
                    
                 </>
                 )

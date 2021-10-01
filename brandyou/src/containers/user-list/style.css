@@ -1,6 +1,6 @@
 .users{
     display: flex;
-    min-height: 100vh;
+    min-height: 50vh;
     background: black;
     color: white;
     padding: 50px;

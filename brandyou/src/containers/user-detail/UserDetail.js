@@ -45,7 +45,7 @@ export default function UserDetail() {
 
                         <ul><p>Lastname: {data.lastname}</p></ul>
                     </div>
-                    <Link to={'/users/'}>User List</Link>
+                    <Link to={'/users/'}><i class="far fa-arrow-alt-circle-left"></i>Back</Link>
                    
                 </>
                 )

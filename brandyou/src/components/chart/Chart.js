@@ -2,6 +2,7 @@ import React from 'react';
 import ChartRow from './ChartRow';
 import { useEffect, useState } from 'react'
 import { API_PRODUCTS } from '../../config'
+import "./chart.css"
 
 // let tableRowsData = [
 //     {
@@ -39,9 +40,10 @@ useEffect(() => {
 
     return (
         /* <!-- DataTales Example --> */
-        <div className="card shadow mb-4">
+        // <div className="card shadow mb-4">
             <div className="card-body">
-                <div className="table-responsive">
+                {/* <div className="table-responsive"> */}
+                <h3>Product List</h3>
                     <table className="table table-bordered" id="dataTable" width="100%" cellSpacing="0">
                         <thead>
                             <tr>
@@ -70,9 +72,9 @@ useEffect(() => {
 
                         </tbody>
                     </table>
-                </div>
+                {/* </div> */}
             </div>
-        </div>
+        // </div>
 
     )
 }
