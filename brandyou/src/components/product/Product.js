@@ -13,7 +13,7 @@ function Product({ title, image, productId }) {
             <article className='product'>
                 <Link to={`/products/${productId}`}>
                     <h2>{title}</h2>
-                    <img src={`/${image}`} width="80%" />
+                    <img src={`${image}`} width="80%" />
                 </Link>
             </article>
         </SmallCard>

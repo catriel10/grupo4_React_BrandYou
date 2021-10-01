@@ -38,13 +38,13 @@ export default function ProductDetail() {
                 <>
                     <h3>{data.name}</h3>
                     <div className="columns">
-                        <img src={`/${data.image}`} width="30%"/>
+                        {/* <img src={`${data.image}`} width="30%"/> */}
                         <p>Name: {data.name}</p>
                         <p>Price: {data.price}</p>
                         <p>Discount: {data.discount}</p>
                         <p>Quantity: {data.quantity}</p>
                     </div>
-                    <Link to={'/products/4'}>Another product</Link>
+                    <Link to={'/products/'}>Product List</Link>
                    
                 </>
                 )

@@ -38,14 +38,14 @@ export default function UserDetail() {
                 <>
                     <h3>{data.name}</h3>
                     <div className="columns">
-                        <img src={`/${data.image}`} width="40%"/>
+                        {/* <img src={`'http://localhost:4444/api/users/'${data.image}`} width="40%"/> */}
                         <ul><p>em@il: {data.email}</p></ul>
 
                         <ul><p>Name: {data.name}</p></ul>
 
                         <ul><p>Lastname: {data.lastname}</p></ul>
                     </div>
-                    <Link to={'/users/3'}>Another user</Link>
+                    <Link to={'/users/'}>User List</Link>
                    
                 </>
                 )

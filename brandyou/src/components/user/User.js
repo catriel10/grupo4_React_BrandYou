@@ -13,7 +13,7 @@ function User({ title, image, userId }) {
             <article className='user'>
                 <Link to={`/users/${userId}`}>
                     <h2>{title}</h2>
-                    <img src={`/${image}`} width="80%" />
+                    <img src={`${image}`} width="80%" />
                 </Link>
             </article>
         </SmallCard>
