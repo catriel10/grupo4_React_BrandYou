@@ -1,7 +1,7 @@
 import React from 'react';
 
 import ContentRowTop from './ContentRowTop';
-import Footer from './Footer';
+import Footer from './footer/Footer';
 import '../assets/css/app.css';
 
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import ChartRow from './ChartRow';
-import { useEffect, useState, useMemo } from 'react'
+import { useEffect, useState } from 'react'
 import { API_PRODUCTS } from '../../config'
 
 // let tableRowsData = [
