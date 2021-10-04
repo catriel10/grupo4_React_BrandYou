@@ -2,7 +2,6 @@
 import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom'
 
-//import { Card } from '../card/Card'
 import { SmallCard } from '../smallcard/SmallCard'
 
 import "./style.css"

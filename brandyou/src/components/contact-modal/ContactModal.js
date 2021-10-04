@@ -18,6 +18,7 @@ export function ContactModal({ onClickClose }) {
                 <p>Tel: (011) 4733-1111</p>
                 
                 <form>
+                <h4>Newsletter</h4>
                     <input ref={inputRef} placeholder="Enter your email"></input>
                 </form>
 

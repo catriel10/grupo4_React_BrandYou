@@ -7,12 +7,8 @@ function ContentRowCenter(){
         <div className="row">
             <MainInfo/>
             {/*<!-- Last Product in DB -->*/}
-          
             {/*<!-- End content row last product in Data Base -->*/}
-            
             {/*<!-- Categories in DB -->*/}
-           
-
         </div>
     )
 }
