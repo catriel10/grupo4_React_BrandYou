@@ -27,20 +27,20 @@
 } 
 .infoBox:hover{
     transform: translate(0, -10px);
-    box-shadow: 10px 10px 10px #ef5956
+    box-shadow: 10px 10px 10px grey
     
 }
 .qtyCategory{
-    color:#ef5956;
+    color:white;
     padding: 10px;
      
 }
 .qtyProducts{
-    color:r#ef5956;
+    color:white;
     padding: 10px;
     font-size: 3em;
 }
 .qtyUser{
-    color:#ef5956;
+    color:white;
     padding: 10px;
 }    

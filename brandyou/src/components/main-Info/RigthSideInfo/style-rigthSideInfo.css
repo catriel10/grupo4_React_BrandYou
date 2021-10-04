@@ -54,8 +54,8 @@
     
 }
 .categoryElement:hover{
-    box-shadow: 5px 5px #ef5956;
-    color: #ef5956
+    box-shadow: 5px 5px grey;
+    color: grey
 }
 .qtyProduct{
     display: none;
