@@ -24,7 +24,7 @@ export default function ProductList() {
         // codigo
         return products.length
     }, [products.length])
-
+        // El key se usa para que renderize solo el elemento que deberia
     return (
         <>
             <section className='products'>
