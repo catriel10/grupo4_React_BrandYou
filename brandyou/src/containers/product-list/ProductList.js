@@ -3,7 +3,7 @@ import { Code } from 'react-content-loader'
 import { API_PRODUCTS } from '../../config'
 import Product from '../../components/product/Product'
 import "../product-list/style.css"
- import Modal from '../../components/Modal/Modal'
+// import Modal from '../../components/Modal/Modal'
 // import { Link } from 'react-router-dom'
 
 export default function ProductList() {
